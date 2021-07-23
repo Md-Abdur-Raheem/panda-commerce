@@ -1,0 +1,85 @@
+/* Font Stlyle */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Coomon Styles */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Button Style*/
+.nav-button:focus{
+    outline: none;
+    box-shadow: none;
+    border: 2px solid orange;
+}
+
+/* Carousel Style */
+.carousel-bg{
+    background-color: #FEEAE9;
+    border-radius: 10px;
+}
+.title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.price{
+    color: #FF136F;
+    font-size: 40px;
+    font-weight: 900;
+}
+.carousel-button{
+    border: none;
+    background-color: #FF589B;
+}
+
+/* Category Styles */
+.category-item-one{
+    background-color: #FF9C35;
+    border-radius: 10px;
+}
+.category-item-two{
+    background-color: #FF589B;
+    border-radius: 10px;
+}
+.category-item-three{
+    background-color: #4289FF;
+    border-radius: 10px;
+}
+.category-title{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+.category-image{
+    width: 100px;
+    height: 100px;
+}
+.prices{
+    font-weight: 900;
+}
+
+/* Subscribe Styles */
+.subscribe{
+    height: 300px;
+    background-color: #fceae8;
+}
+
+
+/* Media Query */
+@media only screen and (max-width:768px) {
+    .category-item-one{
+        width: 100%;
+    } 
+    .category-item-two{
+        width: 100%;
+    } 
+    .category-item-three{
+        width: 100%;
+    } 
+    .items{
+        width: 100%;
+    }
+}
